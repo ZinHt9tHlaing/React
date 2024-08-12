@@ -79,4 +79,32 @@ const products = [
   },
 ];
 
-console.log(products)
+// todo: add
+// const newProduct = {
+//   id: 6,
+//   name: "Apple MacBook Pro",
+//   price: 1999,
+//   stock: 25,
+//   rating: 4.8,
+// };
+
+// const add = [...products, newProduct];
+
+// todo: remove
+// const remove = products.filter((product) => product.id !== 3);
+
+// todo: update
+// const update = products.map((product) => {
+//   if (product.id === 3) {
+//     return { ...product, stock: product.stock + 50 };
+//   } else {
+//     return product;
+//   }
+// });
+
+// const update = products.map((product) => {
+//   return { ...product, price: product.price + 100 };
+// });
+
+console.table(products);
+console.table(update);
