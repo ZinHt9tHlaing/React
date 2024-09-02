@@ -1,0 +1,18 @@
+{
+  "name": "8-contact-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server-dev": "json-server data/tasks.json -p 5000 -d 1000"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.44",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
+  }
+}
