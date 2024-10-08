@@ -22,7 +22,8 @@ const App = () => {
     const data = await res.json();
     // console.log(data);
 
-    setTask([...tasks, data]);
+    // setTask([...tasks, data]);
+    fetchTask(); // revalidation
 
     setSendLoading(false);
   };
@@ -49,7 +50,8 @@ const App = () => {
     const data = await res.json();
     // console.log(data);
 
-    setTask(tasks.map((el) => (el.id === id ? data : el)));
+    // setTask(tasks.map((el) => (el.id === id ? data : el)));
+    fetchTask();
   };
 
   const fetchTask = async () => {
