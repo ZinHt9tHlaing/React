@@ -7,10 +7,10 @@
       "created_at": "2024-09-14T12:30:45Z"
     },
     {
-      "product_name": "Custom Website Design up",
-      "price": "1250",
-      "created_at": "2024-10-09T18:40:39.378Z",
-      "id": 2
+      "id": 2,
+      "product_name": "Custom Website Design",
+      "price": 1200,
+      "created_at": "2024-09-13T09:00:00Z"
     },
     {
       "id": 3,
@@ -59,18 +59,6 @@
       "product_name": "UI/UX Design Consulting",
       "price": 700,
       "created_at": "2024-09-05T15:00:00Z"
-    },
-    {
-      "product_name": "Apple",
-      "price": "500",
-      "created_at": "2024-10-09T17:40:26.453Z",
-      "id": 11
-    },
-    {
-      "product_name": "Apple",
-      "price": "300",
-      "created_at": "2024-10-09T17:57:18.610Z",
-      "id": 12
     }
   ],
   "vouchers": [

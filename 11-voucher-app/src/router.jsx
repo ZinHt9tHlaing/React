@@ -1,8 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "./components/layout";
+import Layout from "./components/Layout";
 import {
   DashboardPage,
   NotFoundPage,
+  ProductCreatePage,
+  ProductEditPage,
   ProductPage,
   SalePage,
   VoucherPage,
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: "/product",
         element: <ProductPage />,
+      },
+      {
+        path: "/product/create",
+        element: <ProductCreatePage />,
+      },
+      {
+        path: "/product/edit/:id",
+        element: <ProductEditPage />,
       },
       {
         path: "/sale",

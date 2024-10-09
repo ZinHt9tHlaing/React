@@ -1,6 +1,6 @@
-import Breadcrumb from "../components/BreadCrumb";
-import Container from "../components/Container";
-import ProductList from "../components/ProductList";
+import Breadcrumb from "../../components/BreadCrumb";
+import Container from "../../components/Container";
+import ProductList from "../../components/products/ProductList";
 
 const ProductPage = () => {
   return (
